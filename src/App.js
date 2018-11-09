@@ -6,6 +6,14 @@ import ContentCard from './components/contentCard';
 import './App.css';
 import LA from './static/la.jpg';
 import vegas from './static/vegas.jpg';
+import antelope from './static/antelope.jpg';
+import grandCanyon from './static/grand-canyon.jpg';
+import deathValley from './static/death-valley.jpg';
+import driving from './static/driving.jpg';
+import yosemite from './static/yosemite.jpg';
+import shopping from './static/shopping.jpg'
+import universalStudios from './static/universal-studios.jpg';
+import flying from './static/flying.jpg';
 
 const appStyles = theme => ({
   root: {
@@ -45,6 +53,118 @@ const content = [
     subheader: 'Dec 24, 2018',
     cardImage: vegas,
     contentSummary: 'From the City of Angels to the Sin City',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Las Vegas - Antelope Canyon - Grand Canyon',
+    subheader: 'Dec 25, 2018',
+    cardImage: antelope,
+    contentSummary: 'The Canyons',
+    contentList: [
+      {
+        time: '6:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Grand Canyon - Las Vegas',
+    subheader: 'Dec 26, 2018',
+    cardImage: grandCanyon,
+    contentSummary: 'Grand Canyon Hiking',
+    contentList: [
+      {
+        time: 'Depends',
+        content: 'Get up and watch sunrise',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Las Vegas - Death Valley',
+    subheader: 'Dec 27, 2018',
+    cardImage: deathValley,
+    contentSummary: 'Death Valley Exploration',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Death Valley - Yosemite',
+    subheader: 'Dec 28, 2018',
+    cardImage: driving,
+    contentSummary: 'Driving...',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Yosemite - LA',
+    subheader: 'Dec 29, 2018',
+    cardImage: yosemite,
+    contentSummary: 'More driving...',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'LA',
+    subheader: 'Dec 30, 2018',
+    cardImage: shopping,
+    contentSummary: 'Do stuff see stuff and buy stuff in LA',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'Universal Studio',
+    subheader: 'Dec 31, 2018',
+    cardImage: universalStudios,
+    contentSummary: 'Universal Studio',
+    contentList: [
+      {
+        time: '7:30',
+        content: 'Get up',
+        actionLink: null,
+        actionText: null
+      }
+    ]
+  },
+  {
+    title: 'LA',
+    subheader: 'Jan 1, 2019',
+    cardImage: flying,
+    contentSummary: 'Flying',
     contentList: [
       {
         time: '7:30',
